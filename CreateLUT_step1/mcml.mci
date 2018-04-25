@@ -1,0 +1,16 @@
+#File created automatically by create_MCML_input_file...
+
+1.0			# file version
+1			# Number of runs
+
+### Specify data for run 1
+mcml.mco A		# output filename, ASCII/Binary
+1000000			# No. of photons
+0.005 0.001		# dz, dr
+100 2000 30		# No. of dz, dr & da
+
+1			# No. of layers
+1.450000		# n for medium above
+#n mua mus g d		# One line for each layer
+1.33 50 333.333 0.85 1e+09	# layer 1
+1.330000		# n for medium below
